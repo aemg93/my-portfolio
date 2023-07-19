@@ -3,6 +3,31 @@
   src: url("./fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
 url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff");
 }
+.alin {
+  margin-bottom: 15px;
+}
+/* styles.css */
+
+/* Clases personalizadas para los iconos */
+.icon-html {
+  font-size: 30px; /* Tamaño de icono personalizado */
+  color: #E44D26; /* Color naranja para HTML */
+}
+
+.icon-css {
+  font-size: 30px; /* Tamaño de icono personalizado */
+  color: #1572B6; /* Color azul para CSS */
+}
+
+.icon-vuejs {
+  font-size: 30px; /* Tamaño de icono personalizado */
+  color: #42B883; /* Color verde para VueJS */
+}
+
+.icon-javascript {
+  font-size: 30px; /* Tamaño de icono personalizado */
+  color: #F7DF1E; /* Color amarillo para JavaScript */
+}
 
 .bi::before,
 [class^="bi-"]::before,
@@ -17,6 +42,7 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
   vertical-align: -.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 14px;
 }
 
 .bi-123::before { content: "\f67f"; }
